@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 5</title>
+</head>
+<body>
+
+<script>
+    let userName = prompt("Введіть ваше ім'я:");
+    let age = Number(prompt("Введіть ваш вік:"));
+
+    let answer = confirm(`Hello, ${userName}! Your age is ${age}. Continue?`);
+
+    if (answer) {
+        alert("Welcome!");
+    } else {
+        alert("Goodbye!");
+    }
+</script>
+
+</body>
+</html>
